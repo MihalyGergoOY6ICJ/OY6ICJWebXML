@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<konferencia>
+    <cim> Programozo konferencia </cim>
+    <hallgatok>
+        <hallgato>
+            <nev> Kovacs Pista </nev>
+            <lakcim> 3525 Miskolc, Petofi utca 1. </lakcim>
+        </hallgato>
+    </hallgatok>
+    <helyszin> Miskolci Egyetem </helyszin>
+    <eloado>
+        <nev> Molnar Bela </nev>
+        <adoszam> 12345678912 </adoszam>
+        <lakcim> 3525 Miskolc, Arany Janos utca 2. </lakcim>
+    </eloado>
+    <datum> 2026. 01. 01. </datum>
+</konferencia>

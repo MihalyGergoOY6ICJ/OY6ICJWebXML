@@ -111,12 +111,36 @@
 	<ora id="10" típus="gyakorlat">
 		<targy> Webes adatkezelo kornyezetek </targy>
 		<idopont>
-			<nap> Kedd </nap>
+			<nap> Szerda </nap>
 			<tol> 10 </tol>
 			<ig> 12 </ig>
 		</idopont>
 		<helyszin> L103 </helyszin>
 		<oktato> Dr. Bednarik Laszlo </oktato>
+		<szak> Mernokinformatikus </szak>
+	</ora>
+	
+	<ora id="11" típus="elmelet">
+		<targy> Multimedia rendszerek </targy>
+		<idopont>
+			<nap> Szerda </nap>
+			<tol> 12 </tol>
+			<ig> 14 </ig>
+		</idopont>
+		<helyszin> In/200 </helyszin>
+		<oktato> Dr. Varga Attila Karoly </oktato>
+		<szak> Mernokinformatikus </szak>
+	</ora>
+	
+	<ora id="12" típus="gyakorlat">
+		<targy> Multimedia rendszerek </targy>
+		<idopont>
+			<nap> Szerda </nap>
+			<tol> 14 </tol>
+			<ig> 16 </ig>
+		</idopont>
+		<helyszin> In/200 </helyszin>
+		<oktato> Dr. Varga Attila Karoly </oktato>
 		<szak> Mernokinformatikus </szak>
 	</ora>
 	
