@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT oy6icj_orarend (ora)*>
+
+<!ELEMENT ora (targy,idopont,helyszin,oktato,szak)>
+<!ATTLIST ora id ID #REQUIRED>
+<!ATTLIST ora típus CDATA #REQUIRED>
+
+<!ELEMENT targy (#PCDATA)>
+
+<!ELEMENT idopont (nap,tol,ig)>
+
+<!ELEMENT nap (#PCDATA)>
+<!ELEMENT tol (#PCDATA)>
+<!ELEMENT ig (#PCDATA)>
+
+<!ELEMENT helyszin (#PCDATA)>
+
+<!ELEMENT oktato (#PCDATA)>
+
+<!ELEMENT szak (#PCDATA)>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE oy6icj_orarend SYSTEM "OY6ICJ_orarend.dtd">
+
+<oy6icj_orarend>
+	<ora id="id_01" típus="elmelet">
+		<targy> Elektrotechnika-elektronika </targy>
+		<idopont>
+			<nap> Hetfo </nap>
+			<tol> 8 </tol>
+			<ig> 10 </ig>
+		</idopont>
+		<helyszin> E3 </helyszin>
+		<oktato> Szabo Norbert Istvan </oktato>
+		<szak> Mernokinformatikus </szak>
+	</ora>
+	
+	<ora id="id_02" típus="elmelet">
+		<targy> Mobil programozasi alapok </targy>
+		<idopont>
+			<nap> Hetfo </nap>
+			<tol> 16 </tol>
+			<ig> 18 </ig>
+		</idopont>
+		<helyszin> L101 </helyszin>
+		<oktato> Dr. Agardi Anita </oktato>
+		<szak> Mernokinformatikus </szak>
+	</ora>
+	
+	<ora id="id_03" típus="gyakorlat">
+		<targy> Mobil programozasi alapok </targy>
+		<idopont>
+			<nap> Hetfo </nap>
+			<tol> 18 </tol>
+			<ig> 20 </ig>
+		</idopont>
+		<helyszin> L101 </helyszin>
+		<oktato> Dr. Agardi Anita </oktato>
+		<szak> Mernokinformatikus </szak>
+	</ora>
+	
+	<ora id="id_04" típus="elmelet">
+		<targy> Windows rendszergazda </targy>
+		<idopont>
+			<nap> Kedd </nap>
+			<tol> 8 </tol>
+			<ig> 10 </ig>
+		</idopont>
+		<helyszin> L103 </helyszin>
+		<oktato> Dr. Wagner Gyorgy </oktato>
+		<szak> Mernokinformatikus </szak>
+	</ora>
+	
+	<ora id="id_05" típus="elmelet">
+		<targy> Mesterséges intelligencia alapok </targy>
+		<idopont>
+			<nap> Kedd </nap>
+			<tol> 10 </tol>
+			<ig> 12 </ig>
+		</idopont>
+		<helyszin> E32 </helyszin>
+		<oktato> Kunné Dr. Tamas Judit, Fazekas Levente Aron </oktato>
+		<szak> Mernokinformatikus </szak>
+	</ora>
+	
+	<ora id="id_06" típus="gyakorlat">
+		<targy> Mesterséges intelligencia alapok </targy>
+		<idopont>
+			<nap> Kedd </nap>
+			<tol> 12 </tol>
+			<ig> 14 </ig>
+		</idopont>
+		<helyszin> E32 </helyszin>
+		<oktato> Kunné Dr. Tamas Judit, Fazekas Levente Aron </oktato>
+		<szak> Mernokinformatikus </szak>
+	</ora>
+	
+	<ora id="id_07" típus="gyakorlat">
+		<targy> Elektrotechnika-elektronika </targy>
+		<idopont>
+			<nap> Kedd </nap>
+			<tol> 14 </tol>
+			<ig> 16 </ig>
+		</idopont>
+		<helyszin> A1/317 </helyszin>
+		<oktato> Dr. Kozsely Gabor </oktato>
+		<szak> Mernokinformatikus </szak>
+	</ora>
+	
+	<ora id="id_08" típus="gyakorlat">
+		<targy> Windows rendszergazda </targy>
+		<idopont>
+			<nap> Kedd </nap>
+			<tol> 16 </tol>
+			<ig> 18 </ig>
+		</idopont>
+		<helyszin> L103 </helyszin>
+		<oktato> Dr. Wagner Gyorgy </oktato>
+		<szak> Mernokinformatikus </szak>
+	</ora>
+	
+	<ora id="id_09" típus="elmelet">
+		<targy> Webes adatkezelo kornyezetek </targy>
+		<idopont>
+			<nap> Szerda </nap>
+			<tol> 8 </tol>
+			<ig> 10 </ig>
+		</idopont>
+		<helyszin> A1/310 </helyszin>
+		<oktato> Dr. Kovacs Laszlo Jozsef </oktato>
+		<szak> Mernokinformatikus </szak>
+	</ora>
+	
+	<ora id="id_10" típus="gyakorlat">
+		<targy> Webes adatkezelo kornyezetek </targy>
+		<idopont>
+			<nap> Szerda </nap>
+			<tol> 10 </tol>
+			<ig> 12 </ig>
+		</idopont>
+		<helyszin> L103 </helyszin>
+		<oktato> Dr. Bednarik Laszlo </oktato>
+		<szak> Mernokinformatikus </szak>
+	</ora>
+	
+	<ora id="id_11" típus="elmelet">
+		<targy> Multimedia rendszerek </targy>
+		<idopont>
+			<nap> Szerda </nap>
+			<tol> 12 </tol>
+			<ig> 14 </ig>
+		</idopont>
+		<helyszin> In/200 </helyszin>
+		<oktato> Dr. Varga Attila Karoly </oktato>
+		<szak> Mernokinformatikus </szak>
+	</ora>
+	
+	<ora id="id_12" típus="gyakorlat">
+		<targy> Multimedia rendszerek </targy>
+		<idopont>
+			<nap> Szerda </nap>
+			<tol> 14 </tol>
+			<ig> 16 </ig>
+		</idopont>
+		<helyszin> In/200 </helyszin>
+		<oktato> Dr. Varga Attila Karoly </oktato>
+		<szak> Mernokinformatikus </szak>
+	</ora>
+	
+</oy6icj_orarend>
