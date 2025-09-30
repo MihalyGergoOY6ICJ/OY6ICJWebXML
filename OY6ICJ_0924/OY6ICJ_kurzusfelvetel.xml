@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE oy6icj_kurzusfelvetel SYSTEM "OY6ICJ_kurzusfelvetel.dtd">
+
 <oy6icj_kurzusfelvetel tanev="2025/26 I." egyetem="Miskolci Egyetem">
     <hallgato>
         <hnev>Mihály Gergő</hnev>
@@ -7,79 +9,94 @@
         <szak evf="3">Mérnökinformatikus</szak>
     </hallgato>
     <kurzusok>
-        <kurzus id="GEVEE050-B2">
-            <kurzusnev>Elektrotechnika-elektronika</kurzusnev>
-            <kredi>5</kredi>
+        <kurzus id="GEVEE050-B2_e">
+            <kurzusnev>Elektrotechnika-elektronika előadás</kurzusnev>
+            <kredit>5</kredit>
             <hely>E3</hely>
             <idopont>Hétfő 8-10</idopont>
             <oktato>Szabó Norbert István</oktato>
         </kurzus>
-        <kurzus id="GEVEE050-B2">
-            <kurzusnev>Elektrotechnika-elektronika</kurzusnev>
-            <kredi>5</kredi>
+        <kurzus id="GEVEE050-B2_gy">
+            <kurzusnev>Elektrotechnika-elektronika gyakorlat</kurzusnev>
+            <kredit>5</kredit>
             <hely>A1/317</hely>
             <idopont>Kedd 14-16</idopont>
             <oktato>Dr. Kozsely Gábor</oktato>
         </kurzus>
 
-        <kurzus id="GEIAK130-B2">
-            <kurzusnev>Mesterséges intelligencia alapok</kurzusnev>
-            <kredi>5</kredi>
+        <kurzus id="GEIAK130-B2_e" jovahagyva="igen" nyelv="magyar">
+            <kurzusnev>Mesterséges intelligencia alapok előadás</kurzusnev>
+            <kredit>5</kredit>
             <hely>E32</hely>
             <idopont>Kedd 10-12</idopont>
             <oktato>Kunné Dr. Tamás Judit</oktato>
         </kurzus>
-        <kurzus id="GEIAK130-B2">
-            <kurzusnev>Mesterséges intelligencia alapok</kurzusnev>
-            <kredi>5</kredi>
+        <kurzus id="GEIAK130-B2_gy" jovahagyva="igen" nyelv="magyar">
+            <kurzusnev>Mesterséges intelligencia alapok gyakorlat</kurzusnev>
+            <kredit>5</kredit>
             <hely>E32</hely>
             <idopont>Kedd 12-14</idopont>
             <oktato>Kunné Dr. Tamás Judit</oktato>
         </kurzus>
 
-        <kurzus id="GEIAL335-B2">
-            <kurzusnev>Mobil programozás alapok</kurzusnev>
-            <kredi>5</kredi>
+        <kurzus id="GEIAL335-B2_e">
+            <kurzusnev>Mobil programozás alapok előadás</kurzusnev>
+            <kredit>5</kredit>
             <hely>L101</hely>
             <idopont>Hétfő 16-18</idopont>
-            <oktato>Dr. Agárdi Anita</oktato>
+            <oraado>Dr. Ferenc József</oraado>
         </kurzus>
-        <kurzus id="GEIAL335-B2">
-            <kurzusnev>Mobil programozás alapok</kurzusnev>
-            <kredi>5</kredi>
+        <kurzus id="GEIAL335-B2_gy">
+            <kurzusnev>Mobil programozás alapok gyakorlat</kurzusnev>
+            <kredit>5</kredit>
             <hely>L101</hely>
             <idopont>Hétfő 18-20</idopont>
-            <oktato>Dr. Agárdi Anita</oktato>
+            <oraado>Dr. Ferenc József</oraado>
         </kurzus>
 
-        <kurzus id="GEVAU242-B2">
-            <kurzusnev>Multimédia rendszerek</kurzusnev>
-            <kredi>5</kredi>
+        <kurzus id="GEVAU242-B2_e">
+            <kurzusnev>Multimédia rendszerek előadás</kurzusnev>
+            <kredit>5</kredit>
             <hely>In/200</hely>
             <idopont>Szerda 12-14</idopont>
             <oktato>Dr. Varga Attila Károly</oktato>
         </kurzus>
-        <kurzus id="GEVAU242-B2">
-            <kurzusnev>Multimédia rendszerek</kurzusnev>
-            <kredi>5</kredi>
+        <kurzus id="GEVAU242-B2_gy">
+            <kurzusnev>Multimédia rendszerek gyakorlat</kurzusnev>
+            <kredit>5</kredit>
             <hely>In/200</hely>
             <idopont>Szerda 14-16</idopont>
             <oktato>Dr. Varga Attila Károly</oktato>
         </kurzus>
 
-        <kurzus id="GEIAL32K-B2">
-            <kurzusnev>Webes adatkezlő környezetek</kurzusnev>
-            <kredi>5</kredi>
+        <kurzus id="GEIAL32K-B2_e">
+            <kurzusnev>Webes adatkezlő környezetek előadás</kurzusnev>
+            <kredit>5</kredit>
             <hely>A1/310</hely>
             <idopont>Szerda 8-10</idopont>
             <oktato>Dr. Kovács László József</oktato>
         </kurzus>
-        <kurzus id="GEIAL32K-B2">
-            <kurzusnev>Webes adatkezlő környezetek</kurzusnev>
-            <kredi>5</kredi>
+        <kurzus id="GEIAL32K-B2_gy">
+            <kurzusnev>Webes adatkezlő környezetek gyakorlat</kurzusnev>
+            <kredit>5</kredit>
             <hely>L103</hely>
             <idopont>Szerda 10-12</idopont>
-            <oktato>Dr. Bednarik Lászlo</oktato>
+            <oktato>Dr. Bednarik László</oktato>
+        </kurzus>
+        
+        <kurzus id="GEIAL30A-B2_e">
+            <kurzusnev>Windows rendszergazda előadás</kurzusnev>
+            <kredit>5</kredit>
+            <hely>L103</hely>
+            <idopont>Kedd 8-10</idopont>
+            <oktato>Dr. Wagner György</oktato>
+        </kurzus>
+        <kurzus id="GEIAL30A-B2_gy">
+            <kurzusnev>Windows rendszergazda gyakorlat</kurzusnev>
+            <kredit>5</kredit>
+            <hely>L103</hely>
+            <idopont>Kedd 16-18</idopont>
+            <oktato>Dr. Wagner György</oktato>
         </kurzus>
     </kurzusok>
 </oy6icj_kurzusfelvetel>
