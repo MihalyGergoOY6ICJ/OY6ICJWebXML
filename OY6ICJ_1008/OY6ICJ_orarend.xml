@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--<oy6icj_orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OY6ICJ_orarend1.xsd">-->
+<!--<oy6icj_orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OY6ICJ_orarend2.xsd">-->
 <oy6icj_orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OY6ICJ_orarend.xsd">
 	<ora id="01" tipus="eloadas">
 		<targy> Elektrotechnika-elektronika </targy>
