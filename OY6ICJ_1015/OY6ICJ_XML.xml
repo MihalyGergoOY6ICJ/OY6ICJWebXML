@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<oy6icj_vendeglatas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OY6ICJ_XMLSchema.xsd">
+
+    <!-- Éttermek -->
+    <etterem EKod="e1">
+        <nev>Jó Pizzéria</nev>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Petőfi Sándor</utca>
+            <hazszam>36</hazszam>
+        </cim>
+        <csillag>3</csillag>
+    </etterem>
+    <etterem EKod="e2">
+        <nev>Arany Kaviár</nev>
+        <cim>
+            <varos>Budapest</varos>
+            <utca>József Attila</utca>
+            <hazszam>2</hazszam>
+        </cim>
+        <csillag>5</csillag>
+    </etterem>
+
+    <!-- Főszakácsok -->
+    <foszakacs FKod="f1" e_f="e1">
+        <nev>Nagy Giuseppe</nev>
+        <eletkor>39</eletkor>
+        <vegzettseg>Szakács</vegzettseg>
+        <vegzettseg>Pizzakészítő</vegzettseg>
+    </foszakacs>
+    <foszakacs FKod="f2" e_f="e2">
+        <nev>Kovács Lajos</nev>
+        <eletkor>59</eletkor>
+        <vegzettseg>Villanyszerelő</vegzettseg>
+        <vegzettseg>Szakács</vegzettseg>
+        <vegzettseg>Mesterszakács</vegzettseg>
+    </foszakacs>
+
+    <!-- Szakácsok -->
+    <szakacs SzKod="sz1" e_sz="e1">
+        <nev>Kiss Anna</nev>
+        <reszleg>Szósz készítő</reszleg>
+        <vegzettseg>Szakács</vegzettseg>
+    </szakacs>
+    <szakacs SzKod="sz2" e_sz="e2">
+        <nev>Olajos Lajos</nev>
+        <reszleg>Köret</reszleg>
+        <vegzettseg>Szakács</vegzettseg>
+        <vegzettseg>Köretséf</vegzettseg>
+    </szakacs>
+    <szakacs SzKod="sz3" e_sz="e2">
+        <nev>Arany Bence</nev>
+        <reszleg>Cukrászat</reszleg>
+        <vegzettseg>Szakács</vegzettseg>
+        <vegzettseg>Cukrász</vegzettseg>
+    </szakacs>
+
+    <!-- Gyakornokok -->
+    <gyakornok GyKod="gy1" e_gy="e1">
+        <nev>József Kevin</nev>
+        <gyakorlat>
+            <kezdete>2025.01.01</kezdete>
+            <idotartama>1 hónap</idotartama>
+        </gyakorlat>
+        <muszak>Nappali</muszak>
+    </gyakornok>
+    <gyakornok GyKod="gy2" e_gy="e1">
+        <nev>Labanc Dóra</nev>
+        <gyakorlat>
+            <kezdete>2025.01.01</kezdete>
+            <idotartama>3 hónap</idotartama>
+        </gyakorlat>
+        <muszak>Nappali</muszak>
+        <muszak>Esti</muszak>
+    </gyakornok>
+    <gyakornok GyKod="gy3" e_gy="e2">
+        <nev>Kovács Aladár</nev>
+        <gyakorlat>
+            <kezdete>2025.01.01</kezdete>
+            <idotartama>2 hét</idotartama>
+        </gyakorlat>
+        <muszak>Nappali</muszak>
+    </gyakornok>
+
+    <!-- Vendégek -->
+    <vendeg VKod="v1">
+        <nev>Nagy Péter</nev>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Márton</utca>
+            <hazszam>2</hazszam>
+        </cim>
+        <eletkor>27</eletkor>
+    </vendeg>
+    <vendeg VKod="v2">
+        <nev>Kató Cecília</nev>
+        <cim>
+            <varos>Debrecen</varos>
+            <utca>Arany János</utca>
+            <hazszam>56</hazszam>
+        </cim>
+        <eletkor>38</eletkor>
+    </vendeg>
+    <vendeg VKod="v3">
+        <nev>Mihály Botond</nev>
+        <cim>
+            <varos>Budapest</varos>
+            <utca>Hang</utca>
+            <hazszam>12</hazszam>
+        </cim>
+        <eletkor>19</eletkor>
+    </vendeg>
+
+    <!-- Rendelések -->
+    <rendeles VKod="v1" EKod="e1">
+        <osszeg>4989</osszeg>
+        <etel>Sonkás Pizza</etel>
+    </rendeles>
+    <rendeles VKod="v1" EKod="e2">
+        <osszeg>9779</osszeg>
+        <etel>Rántott Sertés Borda</etel>
+    </rendeles>
+    <rendeles VKod="v2" EKod="e1">
+        <osszeg>5999</osszeg>
+        <etel>Négysajtos pizza</etel>
+    </rendeles>
+    <rendeles VKod="v3" EKod="e2">
+        <osszeg>11879</osszeg>
+        <etel>Milánói makaróni</etel>
+    </rendeles>
+
+</oy6icj_vendeglatas>

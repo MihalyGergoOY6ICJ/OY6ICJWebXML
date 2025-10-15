@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Saját típusok-->
+    <xs:complexType name="cimTipus">
+        <xs:sequence>
+            <xs:element name="varos" type="xs:string"/>
+            <xs:element name="utca" type="xs:string"/>
+            <xs:element name="hazszam" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="etteremTipus">
+        <xs:sequence>
+            <xs:element name="nev" type="xs:string"/>
+            <xs:element name="cim" type="cimTipus"/>
+            <xs:element name="csillag" type="xs:int"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="EKod" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="foszakacsTipus">
+        <xs:sequence>
+            <xs:element name="nev" type="xs:string"/>
+            <xs:element name="eletkor" type="xs:int"/>
+            <xs:element name="vegzettseg" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="FKod" type="xs:string" use="required"></xs:attribute>
+        <xs:attribute name="e_f" type="xs:string" use="required"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="szakacsTipus">
+        <xs:sequence>
+            <xs:element name="nev" type="xs:string"/>
+            <xs:element name="reszleg" type="xs:string"/>
+            <xs:element name="vegzettseg" type="xs:string" minOccurs="1" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="SzKod" type="xs:string" use="required"/>
+        <xs:attribute name="e_sz" type="xs:string" use="required"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="gyakornokTipus">
+        <xs:sequence>
+            <xs:element name="nev" type="xs:string"/>
+            <xs:element name="gyakorlat">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="kezdete" type="xs:string"/>
+                        <xs:element name="idotartama" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="muszak" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="GyKod" type="xs:string" use="required"></xs:attribute>
+        <xs:attribute name="e_gy" type="xs:string" use="required"></xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="vendegTipus">
+        <xs:sequence>
+            <xs:element name="nev" type="xs:string"/>
+            <xs:element name="cim" type="cimTipus"/>
+            <xs:element name="eletkor" type="xs:int"/>
+        </xs:sequence>
+        <xs:attribute name="VKod" type="xs:string" use="required"/>
+    </xs:complexType>
+    
+    <xs:complexType name="rendelesTipus">
+        <xs:sequence>
+            <xs:element name="osszeg" type="xs:int"/>
+            <xs:element name="etel" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="VKod" type="xs:string" use="required"/>
+        <xs:attribute name="EKod" type="xs:string" use="required"/>
+    </xs:complexType>
+    
+    
+    <xs:element name="oy6icj_vendeglatas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="etterem" type="etteremTipus" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="foszakacs" type="foszakacsTipus" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="szakacs" type="szakacsTipus" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="gyakornok" type="gyakornokTipus" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="vendeg" type="vendegTipus" minOccurs="1" maxOccurs="unbounded"></xs:element>
+                <xs:element name="rendeles" type="rendelesTipus" minOccurs="1" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+
+        <!-- Kulcsok -->
+    </xs:element>
+</xs:schema>
