@@ -1,0 +1,162 @@
+{
+	"oy6icj_orarend": {
+		"ora": [
+			{
+				"targy": "Elektrotechnika-elektronika",
+				"idopont": {
+					"nap": "Hetfo",
+					"tol": "8",
+					"ig": "10"
+				},
+				"helyszin": "E3",
+				"oktato": "Szabo Norbert Istvan",
+				"szak": "Mernokinformatikus",
+				"_id": "01",
+				"_tipus": "eloadas"
+			},
+			{
+				"targy": "Mobil programozasi alapok",
+				"idopont": {
+					"nap": "Hetfo",
+					"tol": "16",
+					"ig": "18"
+				},
+				"helyszin": "L101",
+				"oktato": "Dr. Agardi Anita",
+				"szak": "Mernokinformatikus",
+				"_id": "02",
+				"_tipus": "eloadas"
+			},
+			{
+				"targy": "Mobil programozasi alapok",
+				"idopont": {
+					"nap": "Hetfo",
+					"tol": "18",
+					"ig": "20"
+				},
+				"helyszin": "L101",
+				"oktato": "Dr. Agardi Anita",
+				"szak": "Mernokinformatikus",
+				"_id": "03",
+				"_tipus": "gyakorlat"
+			},
+			{
+				"targy": "Windows rendszergazda",
+				"idopont": {
+					"nap": "Kedd",
+					"tol": "8",
+					"ig": "10"
+				},
+				"helyszin": "L103",
+				"oktato": "Dr. Wagner Gyorgy",
+				"szak": "Mernokinformatikus",
+				"_id": "04",
+				"_tipus": "eloadas"
+			},
+			{
+				"targy": "Mesterséges intelligencia alapok",
+				"idopont": {
+					"nap": "Kedd",
+					"tol": "10",
+					"ig": "12"
+				},
+				"helyszin": "E32",
+				"oktato": "Kunné Dr. Tamas Judit, Fazekas Levente Aron",
+				"szak": "Mernokinformatikus",
+				"_id": "05",
+				"_tipus": "eloadas"
+			},
+			{
+				"targy": "Mesterséges intelligencia alapok",
+				"idopont": {
+					"nap": "Kedd",
+					"tol": "12",
+					"ig": "14"
+				},
+				"helyszin": "E32",
+				"oktato": "Kunné Dr. Tamas Judit, Fazekas Levente Aron",
+				"szak": "Mernokinformatikus",
+				"_id": "06",
+				"_tipus": "gyakorlat"
+			},
+			{
+				"targy": "Elektrotechnika-elektronika",
+				"idopont": {
+					"nap": "Kedd",
+					"tol": "14",
+					"ig": "16"
+				},
+				"helyszin": "A1/317",
+				"oktato": "Dr. Kozsely Gabor",
+				"szak": "Mernokinformatikus",
+				"_id": "07",
+				"_tipus": "gyakorlat"
+			},
+			{
+				"targy": "Windows rendszergazda",
+				"idopont": {
+					"nap": "Kedd",
+					"tol": "16",
+					"ig": "18"
+				},
+				"helyszin": "L103",
+				"oktato": "Dr. Wagner Gyorgy",
+				"szak": "Mernokinformatikus",
+				"_id": "08",
+				"_tipus": "gyakorlat"
+			},
+			{
+				"targy": "Webes adatkezelo kornyezetek",
+				"idopont": {
+					"nap": "Szerda",
+					"tol": "8",
+					"ig": "10"
+				},
+				"helyszin": "A1/310",
+				"oktato": "Dr. Kovacs Laszlo Jozsef",
+				"szak": "Mernokinformatikus",
+				"_id": "09",
+				"_tipus": "eloadas"
+			},
+			{
+				"targy": "Webes adatkezelo kornyezetek",
+				"idopont": {
+					"nap": "Szerda",
+					"tol": "10",
+					"ig": "12"
+				},
+				"helyszin": "L103",
+				"oktato": "Dr. Bednarik Laszlo",
+				"szak": "Mernokinformatikus",
+				"_id": "10",
+				"_tipus": "gyakorlat"
+			},
+			{
+				"targy": "Multimedia rendszerek",
+				"idopont": {
+					"nap": "Szerda",
+					"tol": "12",
+					"ig": "14"
+				},
+				"helyszin": "In/200",
+				"oktato": "Dr. Varga Attila Karoly",
+				"szak": "Mernokinformatikus",
+				"_id": "11",
+				"_tipus": "eloadas"
+			},
+			{
+				"targy": "Multimedia rendszerek",
+				"idopont": {
+					"nap": "Szerda",
+					"tol": "14",
+					"ig": "16"
+				},
+				"helyszin": "In/200",
+				"oktato": "Dr. Varga Attila Karoly",
+				"szak": "Mernokinformatikus",
+				"_id": "12",
+				"_tipus": "gyakorlat"
+			}
+		]
+	}
+}
