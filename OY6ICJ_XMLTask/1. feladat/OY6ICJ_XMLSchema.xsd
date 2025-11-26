@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Saját típusok -->
+    <xs:complexType name="egyetemTipus">
+        <xs:sequence>
+            <xs:element name="nev" type="xs:string"/>
+            <xs:element name="cim" type="cimTipus"/>
+            <xs:element name="weboldal" type="weboldalTipus"/>
+            <xs:element name="telefonszam" type="telefonTipus" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="rektor" type="rektorTipus"/>
+        </xs:sequence>
+        <xs:attribute name="ekod" type="xs:int"/>
+    </xs:complexType>
+
+    <xs:complexType name="rektorTipus">
+        <xs:sequence>
+            <xs:element name="nev" type="xs:string"/>
+            <xs:element name="telefonszam" type="telefonTipus"/>
+            <xs:element name="email" type="emailTipus"/>
+            <xs:element name="fizetes" type="xs:int"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="rkod" type="xs:int"/>
+    </xs:complexType>
+
+    <xs:complexType name="hallgatoTipus">
+        <xs:sequence>
+            <xs:element name="nev" type="xs:string"/>
+            <xs:element name="szuletesi_datum" type="szulTipus"/>
+            <xs:element name="email" type="emailTipus"/>
+            <xs:element name="teljesitett_kreditek" type="xs:int"/>
+        </xs:sequence>
+        <xs:attribute name="neptun_kod" type="neptunKTipus"/>
+        <xs:attribute name="ekod" type="xs:int"/>
+    </xs:complexType>
+
+    <xs:complexType name="oktatoTipus">
+        <xs:sequence>
+            <xs:element name="nev" type="xs:string"/>
+            <xs:element name="iroda" type="xs:string"/>
+            <xs:element name="email" type="emailTipus"/>
+            <xs:element name="fizetes" type="xs:int"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="okod" type="xs:int"/>
+        <xs:attribute name="ekod" type="xs:int"/>
+    </xs:complexType>
+
+    <xs:complexType name="targyTipus">
+        <xs:sequence>
+            <xs:element name="nev" type="xs:string"/>
+            <xs:element name="kredit" type="xs:int"/>
+            <xs:element name="ora" type="oraTipus" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="kotelezo" type="boolTipus"/>
+        </xs:sequence>
+        <xs:attribute name="tkod" type="xs:int"/>
+        <xs:attribute name="okod" type="xs:int"/>
+    </xs:complexType>
+
+    <xs:complexType name="felvettTipus">
+        <xs:sequence>
+            <xs:element name="utolagos" type="boolTipus"/>
+            <xs:element name="ujrafelvetel" type="boolTipus"/>
+        </xs:sequence>
+        <xs:attribute name="neptun_kod" type="neptunKTipus"/>
+        <xs:attribute name="tkod" type="xs:int"/>
+    </xs:complexType>
+
+
+
+    <xs:complexType name="cimTipus">
+        <xs:sequence>
+            <xs:element name="varos" type="xs:string"/>
+            <xs:element name="utca" type="xs:string"/>
+            <xs:element name="hazszam" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="szulTipus">
+        <xs:sequence>
+            <xs:element name="ev" type="xs:int"/>
+            <xs:element name="honap" type="xs:int"/>
+            <xs:element name="nap" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="oraTipus">
+        <xs:sequence>
+            <xs:element name="tipus" type="ea-gyTipus"/>
+            <xs:element name="nap" type="napTipus"/>
+            <xs:element name="kezdet" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:simpleType name="weboldalTipus">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="https:\/\/[a-zA-Z0-9\-.]*.hu\/"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="telefonTipus">
+        <xs:restriction base="xs:long">
+            <xs:totalDigits value="11"></xs:totalDigits>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="emailTipus">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z0-9.]*@gmail.com"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="neptunKTipus">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z0-9]{6}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ea-gyTipus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Előadás"/>
+            <xs:enumeration value="Gyakorlat"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="napTipus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Hétfő"/>
+            <xs:enumeration value="Kedd"/>
+            <xs:enumeration value="Szerda"/>
+            <xs:enumeration value="Csütörtök"/>
+            <xs:enumeration value="Péntek"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="boolTipus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Igen"/>
+            <xs:enumeration value="Nem"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+
+    <!-- XML leírása-->
+    <xs:element name="neptun">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="egyetem" type="egyetemTipus" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="hallgato" type="hallgatoTipus" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="oktato" type="oktatoTipus" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="targy" type="targyTipus" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="felvett" type="felvettTipus" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+
+        <!-- Kulcsok -->
+        <xs:key name="egyetemPK">
+            <xs:selector xpath="egyetem"/>
+            <xs:field xpath="@ekod"/>
+        </xs:key>
+
+        <xs:key name="rektorPK">
+            <xs:selector xpath="egyetem/rektor"/>
+            <xs:field xpath="@rkod"/>
+        </xs:key>
+
+        <xs:key name="hallgatoPK">
+            <xs:selector xpath="hallgato"/>
+            <xs:field xpath="@neptun_kod"/>
+        </xs:key>
+
+        <xs:key name="oktatoPK">
+            <xs:selector xpath="oktato"/>
+            <xs:field xpath="@okod"/>
+        </xs:key>
+
+        <xs:key name="targyPK">
+            <xs:selector xpath="targy"/>
+            <xs:field xpath="@tkod"/>
+        </xs:key>
+
+        <xs:keyref name="hallgatoEgyetemFK" refer="egyetemPK">
+            <xs:selector xpath="hallgato"/>
+            <xs:field xpath="@ekod"/>
+        </xs:keyref>
+
+        <xs:keyref name="oktatoEgyetemFK" refer="egyetemPK">
+            <xs:selector xpath="oktato"/>
+            <xs:field xpath="@ekod"/>
+        </xs:keyref>
+        
+        <xs:keyref name="targyOktatoFK" refer="oktatoPK">
+            <xs:selector xpath="targy"/>
+            <xs:field xpath="@okod"/>
+        </xs:keyref>
+        
+        <xs:keyref name="felvettHallgatoFK" refer="hallgatoPK">
+            <xs:selector xpath="felvett"/>
+            <xs:field xpath="@neptun_kod"/>
+        </xs:keyref>
+        
+        <xs:keyref name="felvettTargyFK" refer="targyPK">
+            <xs:selector xpath="felvett"/>
+            <xs:field xpath="@tkod"/>
+        </xs:keyref>
+    </xs:element>
+</xs:schema>

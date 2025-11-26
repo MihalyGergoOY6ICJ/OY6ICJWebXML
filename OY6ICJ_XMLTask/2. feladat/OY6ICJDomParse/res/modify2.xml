@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<neptun xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OY6ICJ_XMLSchema.xsd">
+  <egyetem ekod="01">
+    <nev>Miskolci Egyetem</nev>
+    <cim>
+      <varos>Miskolc</varos>
+      <utca>Egyetem út</utca>
+      <hazszam>1</hazszam>
+    </cim>
+    <weboldal>https://www.uni-miskolc.hu/</weboldal>
+    <telefonszam>06301234567</telefonszam>
+    <telefonszam>06702345678</telefonszam>
+    <telefonszam>06703456789</telefonszam>
+    <rektor rkod="01">
+      <nev>Miskolci Merse</nev>
+      <telefonszam>06709998765</telefonszam>
+      <email>merse.miskolci@gmail.com</email>
+      <fizetes>40000</fizetes>
+    </rektor>
+  </egyetem>
+  <egyetem ekod="02">
+    <nev>Budapesti Műszaki és Gazdaságtudományi Egyetem</nev>
+    <cim>
+      <varos>Budapest</varos>
+      <utca>Műegyetem rakpart</utca>
+      <hazszam>3</hazszam>
+    </cim>
+    <weboldal>https://www.bme.hu/</weboldal>
+    <telefonszam>06709876543</telefonszam>
+    <rektor rkod="02">
+      <nev>Pesti Pantaleon</nev>
+      <telefonszam>06708887654</telefonszam>
+      <email>pantaleon.pesti@gmail.com</email>
+      <fizetes>25000</fizetes>
+    </rektor>
+  </egyetem>
+  <egyetem ekod="03">
+    <nev>Szegedi Tudományegyetem</nev>
+    <cim>
+      <varos>Szeged</varos>
+      <utca>Dugovics tér</utca>
+      <hazszam>13</hazszam>
+    </cim>
+    <weboldal>https://u-szeged.hu/</weboldal>
+    <telefonszam>06308765432</telefonszam>
+    <telefonszam>06707654321</telefonszam>
+    <telefonszam>06309998877</telefonszam>
+    <telefonszam>06309998877</telefonszam>
+    <rektor rkod="03">
+      <nev>Szegedi Szamira</nev>
+      <telefonszam>06707776543</telefonszam>
+      <email>szamira.szegedi@gmail.com</email>
+      <fizetes>15000</fizetes>
+    </rektor>
+  </egyetem>
+  <hallgato ekod="01" neptun_kod="U6SP8X">
+    <nev>Kovács Kajetán</nev>
+    <szuletesi_datum>
+      <ev>2022</ev>
+      <honap>4</honap>
+      <nap>23</nap>
+    </szuletesi_datum>
+    <email>kajetan.kovacs@gmail.com</email>
+    <teljesitett_kreditek>95</teljesitett_kreditek>
+  </hallgato>
+  <hallgato ekod="01" neptun_kod="KNQ9W3">
+    <nev>Nagy Nepomuk</nev>
+    <szuletesi_datum>
+      <ev>2024</ev>
+      <honap>10</honap>
+      <nap>4</nap>
+    </szuletesi_datum>
+    <email>nepomuk.nagy@gmail.com</email>
+    <teljesitett_kreditek>30</teljesitett_kreditek>
+  </hallgato>
+  <hallgato ekod="02" neptun_kod="71HNUZ">
+    <nev>Olasz Ovídiusz</nev>
+    <szuletesi_datum>
+      <ev>1999</ev>
+      <honap>12</honap>
+      <nap>12</nap>
+    </szuletesi_datum>
+    <email>ovidiusz.olasz@gmail.com</email>
+    <teljesitett_kreditek>105</teljesitett_kreditek>
+  </hallgato>
+  <hallgato ekod="02" neptun_kod="L1HNUZ">
+    <nev>Labanc Larissza</nev>
+    <szuletesi_datum>
+      <ev>2003</ev>
+      <honap>8</honap>
+      <nap>29</nap>
+    </szuletesi_datum>
+    <email>larissza.labanc@gmail.com</email>
+    <teljesitett_kreditek>60</teljesitett_kreditek>
+  </hallgato>
+  <hallgato ekod="03" neptun_kod="9Q94RV">
+    <nev>Magyar Meluzina</nev>
+    <szuletesi_datum>
+      <ev>2001</ev>
+      <honap>3</honap>
+      <nap>17</nap>
+    </szuletesi_datum>
+    <email>meluzina.magyar@gmail.com</email>
+    <teljesitett_kreditek>95</teljesitett_kreditek>
+  </hallgato>
+  <oktato ekod="01" okod="01">
+    <nev>Erdős Elígiusz</nev>
+    <iroda>A1/316</iroda>
+    <email>eligiusz.erdos@gmail.com</email>
+    <fizetes>20000</fizetes>
+  </oktato>
+  <oktato ekod="02" okod="02">
+    <nev>Illés Isméria</nev>
+    <iroda>E4/211</iroda>
+    <email>new.email@gmail.com</email>
+    <fizetes>15000</fizetes>
+  </oktato>
+  <oktato ekod="02" okod="03">
+    <nev>Tóth Tomázia</nev>
+    <iroda>E2/11</iroda>
+    <email>tomazia.toth@gmail.com</email>
+    <fizetes>5000</fizetes>
+  </oktato>
+  <oktato ekod="03" okod="04">
+    <nev>Gáspár Geraszim</nev>
+    <iroda>A4/198</iroda>
+    <email>geraszim.gaspar@gmail.com</email>
+    <fizetes>10000</fizetes>
+  </oktato>
+  <targy okod="01" tkod="01">
+    <nev>Szobanövények pszichológiája</nev>
+    <kredit>7</kredit>
+    <ora>
+      <tipus>Előadás</tipus>
+      <nap>Hétfő</nap>
+      <kezdet>8</kezdet>
+    </ora>
+    <ora>
+      <tipus>Gyakorlat</tipus>
+      <nap>Hétfő</nap>
+      <kezdet>10</kezdet>
+    </ora>
+    <kotelezo>Igen</kotelezo>
+  </targy>
+  <targy okod="01" tkod="02">
+    <nev>Bevezetés a kávéfőzésbe</nev>
+    <kredit>5</kredit>
+    <ora>
+      <tipus>Előadás</tipus>
+      <nap>Kedd</nap>
+      <kezdet>14</kezdet>
+    </ora>
+    <ora>
+      <tipus>Gyakorlat</tipus>
+      <nap>Hétfő</nap>
+      <kezdet>14</kezdet>
+    </ora>
+    <kotelezo>Igen</kotelezo>
+  </targy>
+  <targy okod="02" tkod="03">
+    <nev>Komplex jegyzetkészítés</nev>
+    <kredit>3</kredit>
+    <ora>
+      <tipus>Előadás</tipus>
+      <nap>Péntek</nap>
+      <kezdet>12</kezdet>
+    </ora>
+    <kotelezo>Nem</kotelezo>
+  </targy>
+  <targy okod="03" tkod="04">
+    <nev>Haladó falnézés</nev>
+    <kredit>5</kredit>
+    <ora>
+      <tipus>Előadás</tipus>
+      <nap>Csütörtök</nap>
+      <kezdet>10</kezdet>
+    </ora>
+    <ora>
+      <tipus>Gyakorlat</tipus>
+      <nap>Kedd</nap>
+      <kezdet>8</kezdet>
+    </ora>
+    <kotelezo>Igen</kotelezo>
+  </targy>
+  <targy okod="04" tkod="05">
+    <nev>Függönyök dinamikája</nev>
+    <kredit>4</kredit>
+    <ora>
+      <tipus>Előadás</tipus>
+      <nap>Péntek</nap>
+      <kezdet>18</kezdet>
+    </ora>
+    <kotelezo>Nem</kotelezo>
+  </targy>
+  <felvett neptun_kod="U6SP8X" tkod="01">
+    <utolagos>Nem</utolagos>
+    <ujrafelvetel>Nem</ujrafelvetel>
+  </felvett>
+  <felvett neptun_kod="U6SP8X" tkod="02">
+    <utolagos>Igen</utolagos>
+    <ujrafelvetel>Nem</ujrafelvetel>
+  </felvett>
+  <felvett neptun_kod="KNQ9W3" tkod="02">
+    <utolagos>Nem</utolagos>
+    <ujrafelvetel>Igen</ujrafelvetel>
+  </felvett>
+  <felvett neptun_kod="71HNUZ" tkod="03">
+    <utolagos>Nem</utolagos>
+    <ujrafelvetel>Nem</ujrafelvetel>
+  </felvett>
+  <felvett neptun_kod="71HNUZ" tkod="04">
+    <utolagos>Igen</utolagos>
+    <ujrafelvetel>Nem</ujrafelvetel>
+  </felvett>
+  <felvett neptun_kod="L1HNUZ" tkod="03">
+    <utolagos>Igen</utolagos>
+    <ujrafelvetel>Igen</ujrafelvetel>
+  </felvett>
+  <felvett neptun_kod="L1HNUZ" tkod="04">
+    <utolagos>Nem</utolagos>
+    <ujrafelvetel>Igen</ujrafelvetel>
+  </felvett>
+  <felvett neptun_kod="9Q94RV" tkod="05">
+    <utolagos>Nem</utolagos>
+    <ujrafelvetel>Igen</ujrafelvetel>
+  </felvett>
+</neptun>

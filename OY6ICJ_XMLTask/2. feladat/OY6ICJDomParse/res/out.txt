@@ -1,0 +1,255 @@
+A gyökérelem: neptun
+
+Az aktuális elem: egyetem
+	ekod: 01
+	nev: Miskolci Egyetem
+	weboldal: https://www.uni-miskolc.hu/
+	telefonszam: 06301234567
+	telefonszam: 06702345678
+	telefonszam: 06703456789
+	Az aktuális elem: cim
+		varos: Miskolc
+		utca: Egyetem út
+		hazszam: 1
+	Az aktuális elem: rektor
+		rkod: 01
+		nev: Miskolci Merse
+		telefonszam: 06709998765
+		email: merse.miskolci@gmail.com
+		fizetes: 40000
+
+Az aktuális elem: egyetem
+	ekod: 02
+	nev: Budapesti Műszaki és Gazdaságtudományi Egyetem
+	weboldal: https://www.bme.hu/
+	telefonszam: 06709876543
+	Az aktuális elem: cim
+		varos: Budapest
+		utca: Műegyetem rakpart
+		hazszam: 3
+	Az aktuális elem: rektor
+		rkod: 02
+		nev: Pesti Pantaleon
+		telefonszam: 06708887654
+		email: pantaleon.pesti@gmail.com
+		fizetes: 25000
+
+Az aktuális elem: egyetem
+	ekod: 03
+	nev: Szegedi Tudományegyetem
+	weboldal: https://u-szeged.hu/
+	telefonszam: 06308765432
+	telefonszam: 06707654321
+	telefonszam: 06309998877
+	Az aktuális elem: cim
+		varos: Szeged
+		utca: Dugovics tér
+		hazszam: 13
+	Az aktuális elem: rektor
+		rkod: 03
+		nev: Szegedi Szamira
+		telefonszam: 06707776543
+		email: szamira.szegedi@gmail.com
+		fizetes: 15000
+
+Az aktuális elem: hallgato
+	neptun_kod: U6SP8X
+	ekod: 01
+	nev: Kovács Kajetán
+	email: kajetan.kovacs@gmail.com
+	teljesitett_kreditek: 95
+	Az aktuális elem: szuletesi_datum
+		ev: 2022
+		honap: 4
+		nap: 23
+
+Az aktuális elem: hallgato
+	neptun_kod: KNQ9W3
+	ekod: 01
+	nev: Nagy Nepomuk
+	email: nepomuk.nagy@gmail.com
+	teljesitett_kreditek: 30
+	Az aktuális elem: szuletesi_datum
+		ev: 2024
+		honap: 10
+		nap: 4
+
+Az aktuális elem: hallgato
+	neptun_kod: 71HNUZ
+	ekod: 02
+	nev: Olasz Ovídiusz
+	email: ovidiusz.olasz@gmail.com
+	teljesitett_kreditek: 105
+	Az aktuális elem: szuletesi_datum
+		ev: 1999
+		honap: 12
+		nap: 12
+
+Az aktuális elem: hallgato
+	neptun_kod: L1HNUZ
+	ekod: 02
+	nev: Labanc Larissza
+	email: larissza.labanc@gmail.com
+	teljesitett_kreditek: 60
+	Az aktuális elem: szuletesi_datum
+		ev: 2003
+		honap: 8
+		nap: 29
+
+Az aktuális elem: hallgato
+	neptun_kod: 9Q94RV
+	ekod: 03
+	nev: Magyar Meluzina
+	email: meluzina.magyar@gmail.com
+	teljesitett_kreditek: 95
+	Az aktuális elem: szuletesi_datum
+		ev: 2001
+		honap: 3
+		nap: 17
+
+Az aktuális elem: oktato
+	okod: 01
+	ekod: 01
+	nev: Erdős Elígiusz
+	iroda: A1/316
+	email: eligiusz.erdos@gmail.com
+	fizetes: 20000
+
+Az aktuális elem: oktato
+	okod: 02
+	ekod: 02
+	nev: Illés Isméria
+	iroda: E4/211
+	email: new.email@gmail.com
+	fizetes: 15000
+
+Az aktuális elem: oktato
+	okod: 03
+	ekod: 02
+	nev: Tóth Tomázia
+	iroda: E2/11
+	email: tomazia.toth@gmail.com
+	fizetes: 5000
+
+Az aktuális elem: oktato
+	okod: 04
+	ekod: 03
+	nev: Gáspár Geraszim
+	iroda: A4/198
+	email: geraszim.gaspar@gmail.com
+	fizetes: 10000
+
+Az aktuális elem: targy
+	tkod: 01
+	okod: 01
+	nev: Szobanövények pszichológiája
+	kredit: 7
+	kotelezo: Igen
+	Az aktuális elem: ora
+		tipus: Előadás
+		nap: Hétfő
+		kezdet: 8
+	Az aktuális elem: ora
+		tipus: Gyakorlat
+		nap: Hétfő
+		kezdet: 10
+
+Az aktuális elem: targy
+	tkod: 02
+	okod: 01
+	nev: Bevezetés a kávéfőzésbe
+	kredit: 5
+	kotelezo: Igen
+	Az aktuális elem: ora
+		tipus: Előadás
+		nap: Kedd
+		kezdet: 14
+	Az aktuális elem: ora
+		tipus: Gyakorlat
+		nap: Hétfő
+		kezdet: 14
+
+Az aktuális elem: targy
+	tkod: 03
+	okod: 02
+	nev: Komplex jegyzetkészítés
+	kredit: 3
+	kotelezo: Nem
+	Az aktuális elem: ora
+		tipus: Előadás
+		nap: Péntek
+		kezdet: 12
+
+Az aktuális elem: targy
+	tkod: 04
+	okod: 03
+	nev: Haladó falnézés
+	kredit: 5
+	kotelezo: Igen
+	Az aktuális elem: ora
+		tipus: Előadás
+		nap: Csütörtök
+		kezdet: 10
+	Az aktuális elem: ora
+		tipus: Gyakorlat
+		nap: Kedd
+		kezdet: 8
+
+Az aktuális elem: targy
+	tkod: 05
+	okod: 04
+	nev: Függönyök dinamikája
+	kredit: 4
+	kotelezo: Nem
+	Az aktuális elem: ora
+		tipus: Előadás
+		nap: Péntek
+		kezdet: 18
+
+Az aktuális elem: felvett
+	neptun_kod: U6SP8X
+	tkod: 01
+	utolagos: Nem
+	ujrafelvett: Nem
+
+Az aktuális elem: felvett
+	neptun_kod: U6SP8X
+	tkod: 02
+	utolagos: Igen
+	ujrafelvett: Nem
+
+Az aktuális elem: felvett
+	neptun_kod: KNQ9W3
+	tkod: 02
+	utolagos: Nem
+	ujrafelvett: Igen
+
+Az aktuális elem: felvett
+	neptun_kod: 71HNUZ
+	tkod: 03
+	utolagos: Nem
+	ujrafelvett: Nem
+
+Az aktuális elem: felvett
+	neptun_kod: 71HNUZ
+	tkod: 04
+	utolagos: Igen
+	ujrafelvett: Nem
+
+Az aktuális elem: felvett
+	neptun_kod: L1HNUZ
+	tkod: 03
+	utolagos: Igen
+	ujrafelvett: Igen
+
+Az aktuális elem: felvett
+	neptun_kod: L1HNUZ
+	tkod: 04
+	utolagos: Nem
+	ujrafelvett: Igen
+
+Az aktuális elem: felvett
+	neptun_kod: 9Q94RV
+	tkod: 05
+	utolagos: Nem
+	ujrafelvett: Igen
