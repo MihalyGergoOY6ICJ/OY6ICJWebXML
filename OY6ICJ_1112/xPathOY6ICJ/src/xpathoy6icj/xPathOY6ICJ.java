@@ -41,7 +41,12 @@ public class xPathOY6ICJ {
 		//String expr = "class/student[2]";
 		//String expr = "class/student[last()]";
 		//String expr = "class/student[last() - 1]";
-		String expr = "";
+		//String expr = "class/student[position() <= 2]";
+		//String expr = "class/student";
+		//String expr = "class/student[count(@*) >= 1]";
+		//String expr = "class/student";
+		//String expr = "class/student[kor >= 20]";
+		String expr = "class/student/keresztnev|class/student/vezeteknev";
 		
 		/*----------------------------------------------*/
 		NodeList nodeList = (NodeList) xPath.compile(expr).evaluate(doc, XPathConstants.NODESET);
