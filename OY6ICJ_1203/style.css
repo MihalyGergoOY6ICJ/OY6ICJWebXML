@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.card{
+    background: white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.card h2{
+    margin-top: 0;
+}
+
+label{
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+input[type="text"],
+select{
+    width: 250px;
+    padding: 6px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 7px 15px;
+    background: lightgreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn.blue{
+    background: blue;
+}
+
+.file-upload{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.file-btn{
+    background: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#file-input{
+    display: none;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+
+th{
+    font-weight: bold;
+    background-color: lightgray;
+}

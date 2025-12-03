@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OY6ICJ Hallgatók</title>
+    <link rel="stylesheet" href="style.css">  
+    <script src="input.js"></script>
+</head>
+<body>
+    <h1> OY6ICJ Hallgatók </h1>
+
+    <div class="card">
+        <h2>Új hallgató hozzáadása</h2>
+
+        <label>Név:</label>
+        <input type="text" id="nev">
+
+        <label>Évfolyam:</label>
+        <input type="text" id="evf">
+
+        <label>Szak:</label>
+        <input type="text" id="szak">
+
+        <label>Email:</label>
+        <input type="text" id="email">
+
+        <label>Neptun kód:</label>
+        <input type="text" id="neptun">
+
+        <button class="btn" onclick="save()">Mentés</button>
+    </div>
+
+    <div class="card">
+        <label>Keresés:</label>
+        <input type="text" placeholder="nev">
+
+        <label>Rendezés:</label>
+        <select>
+            <option>Nincs rendezés</option>
+        </select>
+
+        <h3>Export / Import JSON</h3>
+
+        <button class="btn blue">Export JSON</button>
+
+        <div class="file-upload">
+            <label for="file-input" class="file-btn">Fájl kiválasztása</label>
+            <input id="file-input" type="file">
+            <span>Nincs fájl kiválasztva</span>
+        </div>
+    </div>
+
+    <div>
+        <table id="table">
+            <tr>
+                <th>Név</th>
+                <th>Évfolyam</th>
+                <th>Szak</th>
+                <th>Email</th>
+                <th>Neptun</th>
+                <th>Műveletek</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
