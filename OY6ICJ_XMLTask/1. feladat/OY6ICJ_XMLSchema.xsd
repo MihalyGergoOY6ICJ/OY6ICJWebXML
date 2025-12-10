@@ -153,6 +153,12 @@
             </xs:sequence>
         </xs:complexType>
 
+
+        <xs:unique name="rektorUnique">
+            <xs:selector xpath="egyetem/rektor"/>
+            <xs:field xpath="@rkod"/>
+        </xs:unique>
+        
         <!-- Kulcsok -->
         <xs:key name="egyetemPK">
             <xs:selector xpath="egyetem"/>

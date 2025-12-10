@@ -15,7 +15,7 @@
       <nev>Miskolci Merse</nev>
       <telefonszam>06709998765</telefonszam>
       <email>merse.miskolci@gmail.com</email>
-      <fizetes>40000</fizetes>
+      <fizetes>20000</fizetes>
     </rektor>
   </egyetem>
   <egyetem ekod="02">
@@ -44,7 +44,6 @@
     <weboldal>https://u-szeged.hu/</weboldal>
     <telefonszam>06308765432</telefonszam>
     <telefonszam>06707654321</telefonszam>
-    <telefonszam>06309998877</telefonszam>
     <rektor rkod="03">
       <nev>Szegedi Szamira</nev>
       <telefonszam>06707776543</telefonszam>
@@ -80,7 +79,7 @@
       <nap>12</nap>
     </szuletesi_datum>
     <email>ovidiusz.olasz@gmail.com</email>
-    <teljesitett_kreditek>105</teljesitett_kreditek>
+    <teljesitett_kreditek>100</teljesitett_kreditek>
   </hallgato>
   <hallgato ekod="02" neptun_kod="L1HNUZ">
     <nev>Labanc Larissza</nev>
@@ -90,7 +89,7 @@
       <nap>29</nap>
     </szuletesi_datum>
     <email>larissza.labanc@gmail.com</email>
-    <teljesitett_kreditek>60</teljesitett_kreditek>
+    <teljesitett_kreditek>55</teljesitett_kreditek>
   </hallgato>
   <hallgato ekod="03" neptun_kod="9Q94RV">
     <nev>Magyar Meluzina</nev>
@@ -106,7 +105,7 @@
     <nev>Erdős Elígiusz</nev>
     <iroda>A1/316</iroda>
     <email>eligiusz.erdos@gmail.com</email>
-    <fizetes>20000</fizetes>
+    <fizetes>10000</fizetes>
   </oktato>
   <oktato ekod="02" okod="02">
     <nev>Illés Isméria</nev>
